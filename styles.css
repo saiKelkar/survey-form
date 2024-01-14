@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?w=1380&t=st=1705211532~exp=1705212132~hmac=3d339b576a52d44af0b64c2645dad8f08f13bb7a8181aeb1923bcf5ee5fdca19);
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+}
+
+h1, p {
+    /*background-color: aqua;*/
+    text-align: center;
+    color: rgb(222, 255, 207);
+}
+
+h1 {
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+form {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
+    border: none;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+label, input {
+    display: block;
+}
+
+input, textarea, select {
+    width: 100%;
+    min-height: 2em;
+    margin: 10px 0 0 0;
+}
+
+label {
+    margin: 15px 0 0 0;
+}
+
+label:first-of-type {
+    margin:0;
+}
+
+.inline {
+    width: unset;
+    display: inline-block;
+    vertical-align: middle;
+    margin:  0 0.5em 0 0 ;
+    padding: 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin: 1em auto 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #c1c1c1;
+    border-color: white;
+
+}
+
+input:last-of-type {
+    margin: none;
+}
+
+.spacing {
+    margin: 10px;
+    padding: 10px;
+}
